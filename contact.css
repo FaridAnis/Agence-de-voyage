@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "sans-serif";
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+.navbar ul li input {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: #ebebeb;
+  font-size: 20px;
+  border-style: none;
+  color: #1b9cdc;
+  font-weight: 700;
+  cursor: pointer;
+}
+.navbar li input:hover {
+  color: #ebebeb;
+  background-color: #1b9cdc;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 40px;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  left: 10px;
+  border-radius: 20px;
+  margin: 16px;
+}
+.navbar img {
+  border-radius: 20px;
+  width: 170px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar ul li a {
+  color: black;
+  font-size: 19px;
+}
+.navbar ul li a:hover {
+  color: blue;
+}
+.Home {
+  height: 100vh;
+  background-image: url(assets/pexels-olly-789822.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0px 25px;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  color: #392c20 ض;
+  font-size: 30px;
+  margin-bottom: 150px;
+}
+.Home h1 {
+  font-size: 100px;
+}
+.Home h4 {
+  font-weight: 300;
+}
+.ourmission {
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+  margin-bottom: 50px;
+}
+.ourservices {
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.big {
+  padding: 10px 40px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.body {
+  background-color: #f6f8f8;
+}
+.sendmessage {
+  padding: 10px 30px 150px;
+  border: black;
+  border-radius: 20px;
+  border-style: hidden;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.x {
+  padding: 10px 40px;
+  border: black;
+  border-radius: 20px;
+  border-style: hidden;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+.y {
+  padding: 10px 40px;
+  border: black;
+  border-radius: 20px;
+  border-style: hidden;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.email {
+  display: flex;
+  gap: 180px;
+  font-size: 10px;
+}
+.big input {
+  gap: 60px;
+  width: 285px;
+  height: 40px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  border-style: hidden;
+  background-color: #f6f8f8;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  margin-top: 15px;
+}
+
+.H1 {
+  font-size: 35px;
+  padding: 15px;
+}
+.sub {
+  font-size: 10px;
+}
+.sub h1 {
+  margin-top: 15px;
+}
+.sub input {
+  width: 575px;
+  height: 40px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-style: hidden;
+  background-color: #f6f8f8;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.button input {
+  border-radius: 20px;
+  align-items: center;
+  background-color: #1b9cdc;
+  text-align: center;
+  font-size: 20px;
+  border-style: none;
+  color: #f6f8f8;
+  font-weight: 700;
+  cursor: pointer;
+  width: 580px;
+}
+.button input:hover {
+  color: #1b9cdc;
+  background-color: #f6f8f8;
+}
+
+.x {
+  padding: 20px 30px 20px;
+}
+.y {
+  padding: 10px 30px 370px;
+}
+.x p {
+  margin-top: 10px;
+}
+.x img {
+  margin-top: 15px;
+}
+.y p {
+  margin-top: 15px;
+}
+.footer {
+  display: flex;
+  background-color: #F3F4F6;
+  padding: 30px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border: #F3F4F6;
+}
+.footer div{ 
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
